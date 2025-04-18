@@ -3,6 +3,13 @@
 Stream your GoPro as `/gopro_usb_cam/image_raw` in ROS Noetic.
 
 ## Installation
+
+#### GoPro Webcam mode
+```bash
+git clone https://github.com/Ashkanbhz/gopro_webcam_ros.git
+sudo ./install.sh
+```
+#### ROS Node
 ```bash
 sudo apt update
 sudo apt install   ros-noetic-usb-cam   ros-noetic-image-view   v4l2loopback-dkms   v4l2loopback-utils   ffmpeg
